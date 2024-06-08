@@ -1,0 +1,27 @@
+{
+    "Inventory": {
+        "create": {
+            "tag": ["input","Tag"],
+            "name": ["input","Name"],
+            "description": ["input","Description"],
+            "category":["Category", ["fabric","thread","buttons","other"]],
+            "supplier": ["input","Supplier"],
+            "price": ["number","Price"],
+            "stock": ["number","Stock"],
+            "location": ["input","Location"],
+            "notes": ["input","Notes"],
+            "unit": ["Unit of medition",["m","cm","roll","box","kg"]],
+            "buydate": ["date","Buy date"],
+            "duedate": ["date","Due date"],
+            "color":["color","Color"]
+        }
+    },
+
+    "Products": {
+        "create": {
+            "tag": ["input","Tag"],
+            "name": ["input","Name of the product"],
+            "image":["Kind", ["T-shirt","Pants","Skirt","Dress","Shorts","Shirt"]]
+        }
+    }
+}
